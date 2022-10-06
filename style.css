@@ -1,0 +1,168 @@
+body {
+    margin: 0px;
+    background-color: #F3FBFB;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 30px;
+}
+
+.heading button {
+    background-color: transparent;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.heading .shortcutButtons i {
+    margin-right: 29px;
+}
+
+.heading .searchSignUp i {
+    margin-left: 29px;
+}
+
+.heading .searchButton {
+    color: gray;
+}
+
+.heading .productButton::after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f107";
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.heading .signupButton {
+    color: white;
+    background-image: linear-gradient(to right, #ed826dc2, rgba(255, 192, 203, 0.747));
+    border-radius: 20px;
+    padding: 5px 23px;
+}
+
+.heading .signupButton:hover {
+    box-shadow: 0px 0px 5px black;
+}
+
+.giftNotification {
+    background-image: url("./woolClothes.jfif");
+    width: 100%;
+    height: 265px;
+    background-repeat: no-repeat;
+    background-position: 9% 0%;
+}
+
+.giftNotification .giftTextBox {
+    padding: 30px;
+    position: relative;
+    top: 12%;
+    width: 38%;
+    margin-left: 28%;
+    background-color: #29247857;
+    text-align: center;
+    color: white;
+    font-family: 'Poppins';
+    font-size: .8rem;
+}
+
+.giftNotification .shopNowButton {
+    color: white;
+    border: none;
+    background-image: linear-gradient(to right, #ed826dc2, rgba(255, 192, 203, 0.747));
+    border-radius: 20px;
+    padding: 10px 26px;
+}
+
+.giftNotification .shopNowButton:hover {
+    box-shadow: 0px 0px 5px black;
+}
+
+.webBody {
+    background-color: #F3FBFB;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.box1,
+.box2 {
+    height: fit-content;
+    margin-top: 5%;
+    background-color: white;
+    text-align: center;
+    color: black;
+    font-family: 'Poppins';
+    font-size: .8rem;
+    width: 30%;
+    box-shadow: 0px 0px 5px rgba(128, 128, 128, 0.623);
+}
+
+.webBody h2 {
+    padding: 20px 20px 0px 20px;
+}
+
+.webBody p {
+    padding: 0px 20px;
+}
+
+.webBody button {
+    margin-top: 4%;
+    background-color: transparent;
+    padding: 8px 15px;
+    border-radius: 30px;
+    border: 1px solid gray;
+}
+
+.webBody button:hover {
+    box-shadow: 0px 0px 5px rgba(128, 128, 128, 0.623);
+}
+
+.webBody img {
+    margin: 5% 0px;
+    width: 100%;
+    max-height: 204.531px;
+    margin-bottom: -5px;
+}
+
+.box1 {
+    margin-left: 10%;
+    margin-right: 2%;
+}
+
+.box2 {
+    margin-right: 10%;
+    margin-left: 2%;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.footer .name p {
+    margin: 0px;
+    color: rgba(128, 128, 128, 0.459);
+    font-size: .8rem;
+}
+
+.footer a {
+    font-size: .84rem;
+    color: gray;
+    text-decoration: none;
+}
+
+.footer .terms-privacy a {
+    margin-right: 20px;
+}
+
+.footer .socialMedia a {
+    margin-left: 30px;
+}
+
+::selection {
+    background-color: #ED836D;
+    color: white;
+}
